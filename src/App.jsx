@@ -1,14 +1,13 @@
-
-import './App.css'
-import Interview from './components/Interview'
+import "./App.css";
+import Interview from "./components/Interview";
 
 function App() {
   return (
-    <div className="App" style={{ padding: 16 }}>
-      <h1>Tute Dude Project</h1>
+    <div className="App">
+      <h1>Tute Dude </h1>
       <Interview />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
